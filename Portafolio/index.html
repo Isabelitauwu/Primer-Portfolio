@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isabella Rodriguez Getial | Portfolio</title>
+  <meta name="description" content="Portfolio de Isabella Rodriguez Getial, Tecnica Universitaria en Programacion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ========== 1. MENU (hamburguesa solo con CSS: checkbox + label) ========== -->
+<header>
+  <nav aria-label="Principal">
+    <a class="logo" href="#inicio">Porfolio</a>
+    <input type="checkbox" id="menu-toggle" aria-label="Abrir menu">
+    <label class="hamburguesa" for="menu-toggle" aria-hidden="true">&#9776;</label>
+    <ul class="enlaces">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre mi</a></li>
+      <li><a href="#conocimientos">Conocimientos</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#redes">Redes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ========== 2. INICIO ========== -->
+<section id="inicio">
+  <!-- Polaroid en blanco con foto de perfil -->
+  <figure class="polaroid-perfil cinta">
+    <img class="foto-perfil" src="foto-perfil.jpg" alt="Foto de perfil de Isabella Rodriguez Getial" width="300" height="300">
+    <figcaption>&#9998; yo</figcaption>
+  </figure>
+
+  <div class="presentacion papel pin">
+    <h1>Isabella Rodriguez Getial</h1>
+    <p class="titulo-prof">Tecnica Universitaria en Programacion</p>
+    <p class="frase">"La tecnologia debe ser para todos y para el beneficio de todos, no de unos pocos"</p>
+    <div class="botones">
+      <a class="btn" href="#proyectos">Ver proyectos</a>
+      <!-- Cambia el nombre del archivo si tu PDF se llama distinto -->
+      <a class="btn sec" href="cv.pdf" download>Descargar CV</a>
+    </div>
+  </div>
+
+  <!-- Objetos decorativos del collage (aria-hidden: no aportan información) -->
+  <div class="deco vinilo" aria-hidden="true"></div>
+  <div class="deco crucigrama" aria-hidden="true"></div>
+  <div class="deco oh-wait" aria-hidden="true">OH WAIT</div>
+  <div class="deco parche" aria-hidden="true"></div>
+  <div class="deco tira-fotos" aria-hidden="true"></div>
+  <div class="gato" aria-hidden="true">&#128008;&#8205;&#11035;</div>
+</section>
+
+<!-- ========== 3. SOBRE MÍ ========== -->
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <!-- Texto tomado de tu CV; editalo a gusto -->
+  <p class="sobre-texto papel cinta">Estudiante avanzada en la Tecnicatura Universitaria en Programación (UTN) con experiencia en desarrollo de software e internships en entornos técnicos y comerciales. Analítica, comunicativa y orientada al impacto real de la tecnología. Busco crecer profesionalmente en equipos donde pueda seguir desarrollando mis habilidades y aportar una mirada comprometida y creativa.</p>
+
+  <div class="datos">
+    <div class="dato papel cuadricula pin"><h3>Ubicación</h3><p>Tigre</p></div>
+    <div class="dato papel cuadricula pin"><h3>Idiomas</h3><p>Inglés B2</p></div>
+    <div class="dato papel cuadricula pin"><h3>Experiencia actual</h3><p>Asistente de Medios Digitales en EF (Education First)</p></div>
+    <div class="dato papel cuadricula pin">
+      <h3>Educación</h3>
+      <ol>
+        <li>Tecnicatura media en Comunicación Multimedial</li>
+        <li>Curso de Front-End (2022) - Plataforma5 y MediaPila</li>
+        <li>Curso de Inteligencia Artificial &amp; Datos (2025) - Guayerd &amp; IBM</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Timeline de experiencia -->
+  <div class="papel cinta" style="margin-top:1.5rem">
+    <h3>Experiencia</h3>
+    <ul class="timeline">
+      <li><strong>Dic 2020 - Feb 2026</strong> - Personal de Maestranza</li>
+      <li><strong>Feb 2026 - hoy</strong> - Asistente de Medios Digitales en EF</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========== 4. CONOCIMIENTOS ========== -->
+<section id="conocimientos">
+  <h2>Conocimientos</h2>
+  <div class="grupos">
+    <div class="grupo papel pin"><h3>IA y Automatización</h3><ul class="etiquetas"><li>IA Generativa</li><li>LLM</li><li>Prompt Engineering aplicado a desarrollo</li></ul></div>
+    <div class="grupo papel pin"><h3>Frontend</h3><ul class="etiquetas"><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul></div>
+    <div class="grupo papel pin"><h3>Backend</h3><ul class="etiquetas"><li>Python (POO)</li></ul></div>
+    <div class="grupo papel pin"><h3>Bases de Datos</h3><ul class="etiquetas"><li>SQL Server</li><li>MySQL</li><li>SAP</li></ul></div>
+    <div class="grupo papel pin"><h3>Herramientas</h3><ul class="etiquetas"><li>GitHub</li><li>VS Code</li><li>Trello</li><li>Excel</li><li>Power BI</li></ul></div>
+    <div class="grupo papel pin"><h3>Metodologías ágiles</h3><ul class="etiquetas"><li>Scrum</li><li>Kanban</li></ul></div>
+    <div class="grupo papel pin"><h3>Inglés</h3><ul class="etiquetas"><li>Intermedio técnico (B1-B2)</li></ul></div>
+    <div class="grupo papel pin"><h3>Diseño Gráfico</h3><ul class="etiquetas"><li>Photoshop</li><li>Illustrator</li><li>After Effects 2019</li><li>Canva</li><li>CapCut</li></ul></div>
+  </div>
+</section>
+
+<!-- ========== 5. PROYECTOS ========== -->
+<section id="proyectos">
+  <h2>Proyectos</h2>
+  <div class="proyectos">
+    <!-- Destacado 1. Para agregar más: copiá este <article> (los 3 primeros llevan class "destacado") -->
+    <article class="proyecto destacado papel cinta">
+      <img class="img-proyecto" src="Proyecto-veterinaria.gif" alt="Captura del Sistema de Gestión Veterinaria" width="640" height="360">
+      <div>
+        <h3>Sistema de Gestión Veterinaria</h3>
+        <dl>
+          <dt>Género:</dt><dd>Sistema de gestión</dd>
+          <dt>Motor:</dt><dd>C++</dd>
+          <dt>Contexto:</dt><dd>Trabajo Practico Integrador | Programación II</dd>
+          <dt>Rol:</dt><dd>Colaboradora</dd>
+        </dl>
+        <p>Sistema de gestión veterinaria en C++ con POO, archivos binarios y módulos de pacientes, turnos e historial clínico.</p>
+        <p style="margin-top:.8rem"><a class="btn" href="https://github.com/Isabelitauwu/Sistema-de-Gesti-n-Veterinaria.git" target="_blank" rel="noopener noreferrer">Ver en GitHub</a></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 6. REDES ========== -->
+<section id="redes">
+  <h2>Redes</h2>
+  <ul class="redes">
+    <li><a href="https://www.linkedin.com/in/isabella-rodriguez-getial-60675b182/" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6c.6-1 1.9-1.9 3.9-1.9 4 0 4.8 2.600 4.800 6V21h-4v-5.200c0-1.300 0-3-1.800-3s-2.100 1.400-2.100 2.900V21h-4z"/></svg>LinkedIn</a></li>
+    <li><a href="https://github.com/Isabelitauwu" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.500 11.500 0 0 0-3.600 22.400c.6.100.8-.3.8-.6v-2c-3.200.7-3.900-1.500-3.900-1.500-.5-1.300-1.300-1.700-1.300-1.700-1-.7.100-.7.100-.7 1.200.1 1.800 1.200 1.800 1.200 1 1.800 2.700 1.300 3.400 1 .1-.8.400-1.300.7-1.600-2.600-.3-5.300-1.300-5.300-5.700 0-1.300.5-2.300 1.200-3.100-.1-.3-.5-1.500.1-3.100 0 0 1-.3 3.200 1.200a11 11 0 0 1 5.800 0c2.200-1.500 3.200-1.200 3.200-1.200.6 1.600.2 2.800.1 3.100.7.800 1.200 1.800 1.200 3.100 0 4.400-2.700 5.400-5.300 5.700.4.400.8 1.100.8 2.200v3.200c0 .3.200.7.800.6A11.500 11.500 0 0 0 12 .5z"/></svg>GitHub</a></li>
+    <li><a href="mailto:isabella.rodriguez2099@gmail.com">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.5l8 5.500 8-5.500V7zm16 3-8 5.500L4 10v7h16z"/></svg>Email</a></li>
+    <!-- WhatsApp: número tomado de tu CV en formato internacional argentino (54 9 + área + número); verificalo. No se muestra escrito en el sitio -->
+    <li><a href="https://wa.me/5491135176104" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15L2 22l5.200-1.400A10 10 0 1 0 12 2zm5.200 14c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.200-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.200 1.400 2.500 1.500.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.700-.1 1.300z"/></svg>WhatsApp</a></li>
+  </ul>
+</section>
+
+<!-- ========== 7. CONTACTO ========== -->
+<section id="contacto">
+  <h2>Contacto</h2>
+  <!-- Reemplazá TU_ID por el ID de tu formulario en formspree.io -->
+  <form class="papel cinta" action="https://formspree.io/f/TU_ID" method="POST">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required autocomplete="name">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required autocomplete="email">
+    <label for="asunto">Asunto</label>
+    <input type="text" id="asunto" name="asunto" required>
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    <button class="btn" type="submit">Enviar</button>
+  </form>
+</section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <p>&copy; 2026 Isabella Rodriguez Getial <span aria-hidden="true">&#9733;</span></p>
+</footer>
+
+</body>
+</html>
